@@ -74,16 +74,20 @@
         font-family: var(--fonte-android);
         font-size: 1.5em;
         font-weight: normal;
+        padding: 10px;
         
     }
     main h2{
         font-family: var(--fonte-destaque);
         font-size: 1.5em;
-        font-weight: normal;
+        /*font-weight: ;*/
+        padding: 10px;
     }
     main p{
         font-family: var(--fonte-padrao);
+        font-size: 17px;
         text-align: justify;
+        padding: 10px;
     }
 
 
@@ -91,6 +95,22 @@
         background-color: white;
 
     }
+    aside a{
+        color: #000000;
+        text-decoration: none;
+    }
+    aside a:hover{
+        text-decoration: underline;
+        background-color:var(--cor02);
+
+    }
+    aside ul{
+        list-style-position: inside;
+    }
+    img{
+        background-position: center;
+    }
+    
 
     
     
