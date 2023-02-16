@@ -75,6 +75,11 @@
         margin: auto;
         display: block;
     }
+    main img.g{
+        margin: auto;
+        display: block;
+        padding: 10px;
+    }
     main h1{
         font-family: var(--fonte-android);
         font-size: 1.5em;
