@@ -83,7 +83,7 @@
         
     }
     main h2{
-        font-family: var(--fonte-destaque);
+        font-family: var(--fonte-android);
         font-size: 1.5em;
         /*font-weight: ;*/
         padding: 10px;
