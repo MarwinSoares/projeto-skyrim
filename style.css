@@ -79,6 +79,7 @@
         margin: auto;
         display: block;
         padding: 10px;
+        position: center;
     }
     main h1{
         font-family: var(--fonte-android);
@@ -116,6 +117,10 @@
     }
     aside ul{
         list-style-position: inside;
+    }
+    footer{
+        background-color: white;
+        text-align: center;
     }
     
 
