@@ -1,9 +1,6 @@
 @charset "utf8";
 
-/*body{
-    background-color: blue;
-    background-image: url('imagens/skyrim-pq.png');
-}*/
+
  @font-face{
     font-family: 'android';
     src: url('./fontes/idroid.otf') format('opentype');
@@ -77,6 +74,14 @@
         font-family: var(--fonte-android);
         font-size: 1.5em;
         font-weight: normal;
+        
+    }
+    main p{
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+
+    }
+    aside{
         
     }
 
