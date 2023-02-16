@@ -1,2 +1,83 @@
 @charset "utf8";
 
+/*body{
+    background-color: blue;
+    background-image: url('imagens/skyrim-pq.png');
+}*/
+ @font-face{
+    font-family: 'android';
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    }
+    :root{
+        --cor01:#E6E6E6;
+        --cor02:#B3B3B3;
+        --cor03:#34352c;
+        --cor04:#000000;
+        
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque:'Bebas Neue', 'Cursive';
+        --fonte-android:'android', 'cursive';
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-image: url('imagens/skyrim-pq.png');
+        background-color:var(--cor03) ;
+        font-family: var(--fonte-padrao);
+    }
+    header{
+        background-image: linear-gradient(to bottom, var(--cor03), var(--cor02));
+        text-align: center;
+        padding: 40px;
+    }
+    header > h1{
+        font-family: var(--fonte-android);
+        font-weight: normal;
+        font-size: 2.5em;
+        padding: 10px;
+       
+    }
+    header > p{
+        font-family: var(--fonte-padrao);
+        font-size: 1em;
+        padding: 10px;
+    }
+    nav{
+        background-color: var(--cor02);
+        padding: 10px;
+    }
+    nav a{
+        color: white;
+        font-family: var(--fonte-destaque);
+        font-size: 19px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        text-shadow:1px 1px 1px #34352c;
+        background-color: var(--cor03);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 6px;
+    }
+    main{
+        min-width: 300px;
+        max-width: 1000px;
+        background-color: white;
+        margin: auto;
+        margin-bottom: 30px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    main h1{
+        font-family: var(--fonte-android);
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+
+
+    
+    
